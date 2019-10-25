@@ -1,4 +1,4 @@
 'use strict'
 const createHandler = require('azure-function-express').createHandler
-const myapp = require('./myapp')
-module.exports = createHandler(myapp.app)
+const app = require('../app')
+module.exports = createHandler(app.app)
