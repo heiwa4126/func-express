@@ -5,7 +5,7 @@ const app = express(); // Create express app as usual
 app.get("/api/:foo/:bar", (req, res) => {
 	res.json({
 		foo: req.params.foo,
-		bar: req.params.bar,
+		bar: req.params.bar
 	});
 });
 
